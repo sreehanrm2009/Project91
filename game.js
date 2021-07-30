@@ -7,7 +7,7 @@ function sendQuest() {
       ans = parseInt(n1) * parseInt(n2);
       question = "<h4 class='header'>" + n1 + " x " + n2 + "</h4><br>";
       input = "<input type='text' class='form-control' id='ans'><br><br>";
-      button = "<br><button class='btn btn-info' onclick='check()'";
+      button = "<br><button class='btn btn-info' onclick='check()'>Check</button>";
       all = question + input + button;
       document.getElementById("output").innerHTML = all;
       document.getElementById("num1").innerHTML = "";
